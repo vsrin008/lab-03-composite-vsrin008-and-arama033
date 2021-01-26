@@ -1,6 +1,10 @@
 #include <iostream>
 
 #include "base.hpp"
+#include "op.hpp"
+#include "Rand.hpp"
+#include "Mult.hpp"
+#include "Div.hpp"
 
 int main() {
     // This is a very basic main, and being able to correctly execute this main

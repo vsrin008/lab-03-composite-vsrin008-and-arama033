@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/base.hpp
+string
+-
+
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/main.cpp
+iostream
+-
+base.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/base.hpp
+op.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/op.hpp
+Rand.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Rand.hpp
+Mult.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Mult.hpp
+Div.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Div.hpp
+
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/op.hpp
+base.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/base.hpp
+
