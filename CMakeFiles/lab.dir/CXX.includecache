@@ -63,18 +63,20 @@ base.hpp
 /class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/base.hpp
 op.hpp
 /class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/op.hpp
-Pow.hpp
-/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Pow.hpp
-Add.hpp
-/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Add.hpp
-Sub.hpp
-/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Sub.hpp
 Rand.hpp
 /class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Rand.hpp
+Operator.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Operator.hpp
 Mult.hpp
 /class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Mult.hpp
 Div.hpp
 /class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Div.hpp
+Add.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Add.hpp
+Sub.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Sub.hpp
+Pow.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Pow.hpp
 
 /class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/op.hpp
 base.hpp
