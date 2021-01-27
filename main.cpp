@@ -2,11 +2,17 @@
 
 #include "base.hpp"
 #include "op.hpp"
+<<<<<<< HEAD
 #include "Pow.hpp"
 #include "Add.hpp"
 #include "Sub.hpp"
 
 
+=======
+#include "Rand.hpp"
+#include "Mult.hpp"
+#include "Div.hpp"
+>>>>>>> vsrin008
 
 int main() {
     // This is a very basic main, and being able to correctly execute this main
