@@ -5,11 +5,11 @@
 #include "op.hpp"
 #include "Operator.hpp"
 
-class Add : public operator {
+class Add : public Operator {
 	public:
 		
-		Add(Base* left, Base* right) : left(left), right(right) {}
-		Add(Base* left, Base* right)  {this->left = left; this->right = right;}
+		Add(Base* left, Base* right) {this->left =left; this->right=right;}
+		
 		double evaluate() { return left->evaluate() +right->evaluate(); }
 		std::string stringify() { return left->stringify() + " + " + right->stringify(); }
 };

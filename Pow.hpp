@@ -4,11 +4,11 @@
 #include "base.hpp"
 #include "Operator.hpp"
 #include "op.hpp"
+#include"math.h"
 
 class Pow : public Operator {
 	public:
-		Pow(Base* left, Base* right) : left(left), right(right) {}
-                Pow(Base* left, Base* right) {this->left = left; this->right = right; } 
+		Pow(Base* left, Base* right) {this->left=left; this->right=right;} 
 		double evaluate() { return pow(left->evaluate(), right->evaluate()); }
 		std::string stringify() { return left->stringify() + "** " + right->stringify(); }
 };
