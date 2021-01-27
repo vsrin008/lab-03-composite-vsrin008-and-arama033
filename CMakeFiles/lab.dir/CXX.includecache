@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Mult.hpp
+base.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/base.hpp
+Operator.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Operator.hpp
+op.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/op.hpp
+
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/Rand.hpp
+base.hpp
+/class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/base.hpp
+
 /class/classes/vsrin008/lab-03-composite-vsrin008-and-arama033/base.hpp
 string
 -
