@@ -177,19 +177,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lab
-
-# Build rule for target.
-lab: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab
-.PHONY : lab
-
-# fast build rule for target.
-lab/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
-.PHONY : lab/fast
-
-#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -201,6 +188,19 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named lab
+
+# Build rule for target.
+lab: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab
+.PHONY : lab
+
+# fast build rule for target.
+lab/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
+.PHONY : lab/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main

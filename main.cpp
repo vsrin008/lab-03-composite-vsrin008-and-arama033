@@ -6,7 +6,7 @@
 #include "Operator.hpp"
 #include "Mult.hpp"
 #include "Div.hpp"
-#include "Add.hpp""
+#include "Add.hpp"
 #include "Sub.hpp"
 #include "Pow.hpp"
 
@@ -23,4 +23,6 @@ int main() {
 
     	std::cout << minus->stringify() << " = " << minus->evaluate() << std::endl;
     	return 0;
+
 }
+};
