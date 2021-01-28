@@ -30,4 +30,5 @@ class ZeroPowMock : public Base {
                 ZeroPowMock() {};
                 virtual double evaluate() { return 0; }
                 virtual std::string stringify() { return "0" ;}
+};
 #endif
